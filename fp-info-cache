@@ -1,4 +1,4 @@
-26596298561436170
+26598074402154291
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73779,133 +73779,140 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PSU-Rev1
+PSU-Rev2
 3-140-178
 
 
 0
 2
 2
-PSU-Rev1
+PSU-Rev2
 6-pin-connector
 
 
 0
 6
 6
-PSU-Rev1
+PSU-Rev2
 0498150.M
 
 
 0
 2
 2
-PSU-Rev1
+PSU-Rev2
 AMASS_XT60PW-M
 
 
 0
 4
 4
-PSU-Rev1
+PSU-Rev2
 AMASS_XT90PW-M
 
 
 0
 4
 4
-PSU-Rev1
+PSU-Rev2
 CAPAE660X600N
 
 
 0
 2
 2
-PSU-Rev1
+PSU-Rev2
 CONV_I6A4W020A033V-003-R
 
 
 0
 11
 11
-PSU-Rev1
+PSU-Rev2
 DDF0008A-MFG
 
 LM74502DDFR 
 0
 8
 8
-PSU-Rev1
+PSU-Rev2
 DRL0006A-MFG
 
 PTPS543021DRLR 
 0
 6
 6
-PSU-Rev1
+PSU-Rev2
 EHBSA035M1010608T
 
 
 0
 2
 2
-PSU-Rev1
+PSU-Rev2
 IND_BOURNS_SDR1307
 
 SDR1307-100ML 
 0
 2
 2
-PSU-Rev1
+PSU-Rev2
 KEYSTONE_5002
 
 
 0
 1
 1
-PSU-Rev1
+PSU-Rev2
 LED_B1911PG--20D000514U1930_HVK
 
 B1911PG--20D000514U1930 
 0
 2
 2
-PSU-Rev1
+PSU-Rev2
 LTST_C190KSKT
 
 
 0
 2
 2
-PSU-Rev1
+PSU-Rev2
 LTST_S270KRKT
 
 
 0
 2
 2
-PSU-Rev1
+PSU-Rev2
+PLM74501QDDFRQ1_TEX
+
+PLM74501QDDFRQ1 
+0
+8
+8
+PSU-Rev2
 Rocker-Switch
 
 
 0
 2
 2
-PSU-Rev1
+PSU-Rev2
 SOT95P240X111-3N
 <b>SOT-23</b>
 
 0
 3
 3
-PSU-Rev1
+PSU-Rev2
 SW_DS04-254-2-02BK-SMT
 
 
 0
 4
 4
-PSU-Rev1
+PSU-Rev2
 TO254P483X1016X1944-3B
 TO,flange mount,2.54mm pitch;3 pin,4.83mm L X 10.16mm W X 19.44mm H body
 

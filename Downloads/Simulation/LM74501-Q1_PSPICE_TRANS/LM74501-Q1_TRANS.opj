@@ -1,0 +1,190 @@
+(ExpressProject "LM74700-Q1_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\lm74501-q1ddf_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\lm74501-q1_trans.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\lm74501-q1_trans.dsn"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Make_Dot_Param_Global "FALSE")
+    (Hier_Subckt_Products "PSpice,PSpice,LVS")
+    (Hier_Subckt_Settings_PSpice_Subckt_Call
+       "X_<RefDes> <PinList> <SubcktName> PARAMS: <ParamList>")
+    (Hier_Subckt_Settings_PSpice_Subckt_Header
+       ".SUBCKT <SubcktName> <PinList> PARAMS: <ParamList>")
+    (Hier_Subckt_Settings_PSpice_Subckt_Trailer ".ENDS")
+    (Hier_Subckt_Settings_PSpice_Subckt_Call_Param "<Param>=<Value>")
+    (Hier_Subckt_Settings_PSpice_Subckt_Header_Param "<Param>=<Value>")
+    (Hier_Subckt_Settings_PSpice_Subckt_Param_Ref "{<Param>}")
+    (Hier_Subckt_Settings_PSpice_Global_Net_Prefix "$G_")
+    (Netlist_TAB "4")
+    (PSPICE_Output_File "LM74501-Q1_TRANS.lib")
+    (PSPICE_View_Output "TRUE")
+    (PSPICE_Subcircuit_Format "TRUE")
+    (PSPICE_Do_DRC_Markers "TRUE")
+    (PSPICE_Hier_Format "FALSE")
+    (PSPICE_Hier_Descend "TRUE")
+    (PSPICE_Hier_DoNot_Descend "FALSE")
+    (PSPICE_Alt_Template "PSpiceTemplate")
+    (PSPICE_Net_Name_Pref "TRUE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm74501-q1_trans-pspicefiles\startup\lm74500_q1_startup.sim"
+        (DisplayName "STARTUP-LM74500_Q1_startup")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\lm74501-q1_trans-pspicefiles\startup\lm74500_q1_startup.sim"))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lm74501-q1_trans.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\lm74501-q1_trans.lib"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (LM74501-Q1DDF_TRANS
+      (FullPartName "LM74501-Q1DDF_TRANS.Normal")
+      (LibraryName
+         "D:\EXPERIMENT\LM74501-Q1\RELEASE\LM74501-Q1_PSPICE_TRANS\LM74501-Q1DDF_TRANS.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (OR2_BASIC_GEN
+      (FullPartName "OR2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\MISC\LDO TRAINING\STANDARD MACRO OLB FILES\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (DD
+      (FullPartName "DD.Normal")
+      (LibraryName
+         "C:\ELAB_MODEL_WS\ELAB_MODEL_DS\PART_NUMBERS\BQ25504\ACTIVE_WORK\PSPICE\BQ25504_PSPICE_TRANS\BQ25504_TRANS.OLB")
+      (DeviceIndex "0"))
+    (INV_BASIC_GEN
+      (FullPartName "INV_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\MISC\LDO TRAINING\STANDARD MACRO OLB FILES\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (COMPHYS_BASIC_GEN
+      (FullPartName "COMPHYS_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\MISC\LDO TRAINING\STANDARD MACRO OLB FILES\COMPARATOR_GEN.OLB")
+      (DeviceIndex "0"))
+    (COMP_BASIC_GEN
+      (FullPartName "COMP_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\MISC\LDO TRAINING\STANDARD MACRO OLB FILES\COMPARATOR_GEN.OLB")
+      (DeviceIndex "0"))
+    (AND2_BASIC_GEN
+      (FullPartName "AND2_BASIC_GEN.Normal")
+      (LibraryName
+         "Z:\TEMPLATES\PSPICE_TEMPLATES\LIB_AND_OLB_FILES\GATES_GEN(1).OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (D_D1
+      (FullPartName "D_D1.Normal")
+      (LibraryName
+         "D:\PSPICE\TPS40192\20080331 PRE-PACKAGED DEBUGGED\LIBRARY\TPS40192APP.OLB")
+      (DeviceIndex "0"))
+    (AND3_BASIC_GEN
+      (FullPartName "AND3_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\ELAB_MODEL_WS\ELAB_MODEL_DS\PART_NUMBERS\TPS4030X\ACTIVE_WORK\PSPICE\TPS40303_PSPICE_TRANS\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\CAPACITOR\HYBRID\SUPPORTFILES\CAPACITOR.OLB")
+      (DeviceIndex "0"))
+    (ASYMMETRIC_DELAY
+      (FullPartName "ASYMMETRIC_DELAY.Normal")
+      (LibraryName "C:\USERS\X0288485\DOWNLOADS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (LM74700-Q1_TRANS
+      (FullPartName "LM74700-Q1_TRANS.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\PART_NUMBERS\LM74700-Q1\ACTIVE_WORK_FPT\PSPICE\LM74700-Q1_PSPICE_TRANS\LM74700-Q1_TRANS.OLB")
+      (DeviceIndex "0"))
+    (BUF_DELAY_BASIC_GEN
+      (FullPartName "BUF_DELAY_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\MISC\LDO TRAINING\STANDARD MACRO OLB FILES\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (VPWL
+      (FullPartName "VPWL.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (IC1
+      (FullPartName "IC1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (NOR2_BASIC_GEN
+      (FullPartName "NOR2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\MISC\LDO TRAINING\STANDARD MACRO OLB FILES\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (S
+      (FullPartName "S.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (ABM2
+      (FullPartName "ABM2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (ABM1
+      (FullPartName "ABM1.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 312 0 367"))
+      (Tab 0)))
+  (MPSSessionName "x0288485")
+  (LastUsedLibraryBrowseDirectory
+     "C:\FPT_WS\FPT_DS\Part_Numbers\LM74700-Q1\Active_Work_FPT\Experiments\LM74700-Q1_PSPICE_TRANS")
+  (ISPCBBASICLICENSE "false"))
