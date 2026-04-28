@@ -490,7 +490,7 @@
       "plot": "Manufacture/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../VECTAR-Enclosure/Imports/VECTAR-PSU-REV2.step",
       "svg": "",
       "vrml": ""
     },
