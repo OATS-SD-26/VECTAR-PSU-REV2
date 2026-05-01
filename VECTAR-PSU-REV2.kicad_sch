@@ -5244,7 +5244,7 @@
 		)
 		(uuid "363e2af5-48b1-4fb3-a661-4fbefccb4ea2")
 	)
-	(text "12V Converter"
+	(text "18V Converter"
 		(exclude_from_sim no)
 		(at 186.69 77.47 0)
 		(effects
